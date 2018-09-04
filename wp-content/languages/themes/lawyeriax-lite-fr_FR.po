@@ -1,0 +1,898 @@
+# Translation of Themes - LawyeriaX Lite in French (France)
+# This file is distributed under the same license as the Themes - LawyeriaX Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-29 14:30:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - LawyeriaX Lite\n"
+
+#. Description of the plugin/theme
+msgid "LawyeriaX Lite is the upgraded version of LawyeriaX Lite Lite, a neat and minimalist theme for lawyers, law-related websites, or any other business and agency. It has a professional and simple look, with full-width beautiful slider, simple content structure, easy-to-use interface, blog section, custom widgets, widgetized footer, live customizer, social links, customizable ribbon, custom logo, front page displays, and SEO friendly code. The theme comes with a range of great customization options, so you can change them the way you want. The pro version adds a lot of customization capabilities."
+msgstr "LawyeriaX Lite est la version améliorée de LawyeriaX Lite Lite, un thème propre et minimaliste pour les avocats, les sites liés à la Loi, ou toute autre entreprise et agence. Il a un aspect professionnel et simple, avec son beau diaporama en pleine largeur, sa structure simple de contenu, son interface facile à utiliser, sa section de blog, ses widgets personnalisés, son pied de page avec widget, son outil de personnalisation, ses liens sociaux, son ruban personnalisable, son logo personnalisé, son affichages de page d’accueil, et son optimisation SEO. Le thème est livré avec une grande gamme d’options de personnalisation, de sorte que vous pouvez les changer comme vous le souhaitez. La version Pro ajoute beaucoup de fonctionnalités de personnalisation."
+
+#. Theme Name of the plugin/theme
+msgid "LawyeriaX Lite"
+msgstr "Lawyeria Lite"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Un commentaire sur &ldquo;%s&rdquo;"
+
+#. Template Name of the plugin/theme
+msgid "Blog"
+msgstr "Blog"
+
+#: template-parts/content-home-single-small.php:29
+#: template-parts/content-home-single.php:25
+msgid "% comments"
+msgstr "% commentaires"
+
+#: template-parts/content-home-single-small.php:29
+#: template-parts/content-home-single.php:25
+msgid "1 comment"
+msgstr "1 commentaire"
+
+#: template-parts/content-home-single-small.php:29
+#: template-parts/content-home-single.php:25
+msgid "no comments"
+msgstr "0 commentaire"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:48 inc/template-tags.php:54
+msgid ", "
+msgstr ", "
+
+#: inc/sections/frontpage-about.php:16
+msgid "Choose the color that suits you for the following: Menu, Header, Footer and Frontpage boxes"
+msgstr "Choisissez la couleur pour habiller le menu, l’en-tête, le pied et les boîtes de la page d’accueil."
+
+#: inc/customizer/customizer-ribbon-controls.php:33
+msgid "Ribbon Tagline"
+msgstr "Slogan du ruban"
+
+#: inc/customizer/customizer-ribbon-controls.php:17
+msgid "Ribbon section settings"
+msgstr "Réglages de section de ruban"
+
+#: inc/customizer/customizer-navbar-logo.php:22
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/customizer-features-controls.php:16
+msgid "Edit, add or remove items from the front page features section"
+msgstr "Modifiez, ajoutez ou supprimez des éléments de la section de page d’accueil"
+
+#: inc/customizer/customizer-about-controls.php:69
+msgid "Main Content"
+msgstr "Contenu principal"
+
+#: inc/customizer/customizer-about-controls.php:63
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. Nihil opus est exemplis hoc facere longius. Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. Sed tu, ut dignum est tua erga me et philosophiam voluntate ab adolescentulo suscepta, fac ut Metrodori tueare liberos. Vitae autem degendae ratio maxime quidem illis placuit quieta. Quae si potest singula consolando levare, universa quo modo sustinebit? Ita fit beatae vitae domina fortuna, quam Epicurus ait exiguam intervenire sapienti. Duo Reges: constructio interrete. Epicurus ait exiguam intervenire sapienti. Duo Reges: constructio interrete."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expressa vero in iis aetatibus, quae iam confirmatae sunt. Nihil opus est exemplis hoc facere longius. Restincta enim sitis stabilitatem voluptatis habet, inquit, illa autem voluptas ipsius restinctionis in motu est. Sed tu, ut dignum est tua erga me et philosophiam voluntate ab adolescentulo suscepta, fac ut Metrodori tueare liberos. Vitae autem degendae ratio maxime quidem illis placuit quieta. Quae si potest singula consolando levare, universa quo modo sustinebit? Ita fit beatae vitae domina fortuna, quam Epicurus ait exiguam intervenire sapienti. Duo Reges: constructio interrete. Epicurus ait exiguam intervenire sapienti. Duo Reges: constructio interrete."
+
+#: inc/customizer/customizer-about-controls.php:45
+msgid "Choose the color that suits you for the following: Menu, Header, Footer and Frontpage boxes."
+msgstr "Choisissez la couleur pour habiller le menu, l’en-tête, le pied et les boîtes de la page d’accueil."
+
+#: inc/customizer/customizer-about-controls.php:33
+msgid "Section image"
+msgstr "Section d’image"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:332
+msgid "Button Label"
+msgstr "Label du bouton"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:268
+msgid "Button Text"
+msgstr "Texte du bouton"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:93
+msgid "LawyeriaX"
+msgstr "LawyeriaX"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation de l'extension %1$s (%2$d/%3$d)"
+
+#: inc/class/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été effectuées."
+
+#. translators: 1: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s installé avec succès"
+
+#: inc/class/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Le processus d'installation démarre. Cette opération peut prendre quelques minutes selon votre hébergement, soyez patients"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation de l'extension %1$s (%2$d/%3$d)"
+
+#: inc/class/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installations et les activations ont été effectuées"
+
+#: inc/class/class-tgm-plugin-activation.php:3509
+#: inc/class/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Cacher les détails"
+
+#: inc/class/class-tgm-plugin-activation.php:3509
+#: inc/class/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#. translators: 1: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: inc/class/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Le processus d'installation et d'activation démarre. Cette opération peut prendre quelques minutes selon votre hébergement, patientez..."
+
+#. translators: 1: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s a échoué"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Une erreur a eu lieu durant l'installation de %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour d'extension %1$s (%2$d/%3$d)"
+
+#: inc/class/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Échec d'activation de l'extension"
+
+#: inc/class/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "0 extensions disponibles à l'activation pour l'instant"
+
+#: inc/class/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "0 extensions disponibles à l'activation pour l'instant Pas d'action en cours."
+
+#: inc/class/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "0 extensions disponibles à la mise à jour pour l'instant."
+
+#: inc/class/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "0 extensions disponibles à l'installation pour l'instant"
+
+#: inc/class/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "0 extensions choisies pour la mise à jour. Pas d'action en cours."
+
+#: inc/class/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "0 extensions disponibles à l'installation pour l'instant Pas d'action en cours."
+
+#: inc/class/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activation"
+
+#: inc/class/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Mise à jour"
+
+#: inc/class/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installation"
+
+#: inc/class/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Message de mise à niveau de l'auteur de l'extension :"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activation de %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Mise à jour de %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Installation de %2$s"
+
+#: inc/class/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Statut"
+
+#: inc/class/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#: inc/class/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Type"
+
+#: inc/class/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Source"
+
+#: inc/class/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Extension"
+
+#: inc/class/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Aucune extension à installer, mettre à jour ou activer."
+
+#: inc/class/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Version disponible. :"
+
+#: inc/class/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Version minimum nécessaire :"
+
+#: inc/class/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Version installée :"
+
+#: inc/class/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "inconnu"
+
+#. translators: 1: number of plugins.
+#: inc/class/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Pour activation <span class=\"count\">(%s)</span>"
+msgstr[1] "Pour activation <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Mises à jour disponibles <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Pour installation <span class=\"count\">(%s)</span>"
+msgstr[1] "Pour installation <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tout <span class=\"count\">(%s)</span>"
+msgstr[1] "Tout <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+#: inc/class/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Mise à jour nécessaire"
+
+#: inc/class/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Mise à jour nécessaire non disponible"
+
+#: inc/class/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Actif"
+
+#: inc/class/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+#: inc/class/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Non installé"
+
+#: inc/class/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pré-packagé"
+
+#: inc/class/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Source externe"
+
+#: inc/class/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Dépot WordPress"
+
+#: inc/class/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recommandée"
+
+#: inc/class/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Nécessaire"
+
+#. translators: %s: version number
+#: inc/class/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class/class-tgm-plugin-activation.php:1121
+#: inc/class/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "et"
+
+#: inc/class/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Le package d'extensions distantes consiste à plus d'un fichier, mais les fichiers ne sont pas packagés dans un répertoire"
+
+#: inc/class/class-tgm-plugin-activation.php:934
+#: inc/class/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Merci de contacter le fournisseur de l'extension et de lui demander d'accorder son extension avec les guidelines WordPress"
+
+#: inc/class/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Le package d'extensions distantes ne contient pas de répertoire avec le slug désiré et le renommage ne fonctionnera pas"
+
+#: inc/class/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Mise à jour nécessaire"
+
+#: inc/class/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Cette extension nécessite une mise à jour pour être compatible avec votre thème."
+
+#: inc/class/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Merci de contacter l'administrateur de ce site pour de l'aide."
+
+#: inc/class/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Il y a une ou plusieurs  extensions nécessaires ou recommandées à installer, mettre à jour ou activer. "
+
+#: inc/class/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Retirer cette notice"
+
+#. translators: 1: dashboard link.
+#: inc/class/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toutes les extensions sont installées et activées. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Extension non activée. Une version plus récente de %s est requise pour ce thème. Merci de la mettre à jour."
+
+#. translators: 1: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Pas d'action requise. L'extension %1$s est déjà active."
+
+#: inc/class/class-tgm-plugin-activation.php:388
+#: inc/class/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr "L'extension suivante a bien été activée :"
+
+#: inc/class/class-tgm-plugin-activation.php:386
+#: inc/class/class-tgm-plugin-activation.php:827
+#: inc/class/class-tgm-plugin-activation.php:2533
+#: inc/class/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+#: inc/class/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Début de mise à jour d'extension"
+msgstr[1] "Début de mise à jour des extensions"
+
+#. translators: %s: plugin name.
+#: inc/class/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Mise à jour de l'extension : %s"
+
+#: inc/class/category-selector-control.php:25
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Choix &mdash; "
+
+#: header.php:129
+msgid "Edit email in <a class=\"link-to-customizer\" href=\"%s\">customizer</a>."
+msgstr "Modifiez l’e-mail dans la <a class=\"link-to-customizer\" href=\"%s\">personnalisation</a>."
+
+#: header.php:102
+msgid "Edit phone in <a class=\"link-to-customizer\" href=\"%s\">customizer</a>."
+msgstr "Modifier le téléphone dans la <a class=\"link-to-customizer\" href=\"%s\">personnalisation</a>."
+
+#: functions.php:488
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Toutes les extensions sont installées et activées. %s"
+
+#: functions.php:487 inc/class/class-tgm-plugin-activation.php:387
+#: inc/class/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Extension activée avec succès."
+
+#: functions.php:486 inc/class/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Retour vers l'installeur d'extensions"
+
+#: functions.php:485 inc/class/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Début d'activation d'extension"
+msgstr[1] "Début d'activation des extensions"
+
+#. translators: 1: plugin name(s).
+#: functions.php:484 inc/class/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Début d'installation d'extension"
+msgstr[1] "Début d'installation des extensions"
+
+#: functions.php:483
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Désolé, mais vous n'avez pas la permission de mettre à jour l'extension %s. Contactez l'administrateur du site."
+msgstr[1] "Désolé, mais vous n'avez pas la permission de mettre à jour les extensions %s. Contactez l'administrateur du site."
+
+#: functions.php:482
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "L'extension suivante nécessite une mise à jour pour assurer une compatibilité maximum avec ce thème : %1$s"
+msgstr[1] "Les extensions suivantes nécessitent une mise à jour pour assurer une compatibilité maximum avec ce thème : %1$s"
+
+#: functions.php:481
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Désolé, mais vous n'avez pas la permission d'activer l'extension %s. Contactez l'administrateur du site."
+msgstr[1] "Désolé, mais vous n'avez pas la permission d'activer les extensions %s. Contactez l'administrateur du site."
+
+#: functions.php:480
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "L'extension nécessaire suivante est inactive : %1$s"
+msgstr[1] "Les extensions nécessaires suivantes sont inactives : %1$s"
+
+#: functions.php:479
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "L'extension nécessaire suivante est inactive : %1$s"
+msgstr[1] "Les extensions nécessaires suivantes sont inactives : %1$s"
+
+#: functions.php:478
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Désolé, mais nous n'avez pas la permission d'installer l'extension %s. Contactez l'administrateur de ce site."
+msgstr[1] "Désolé, mais nous n'avez pas la permission d'installer les extensions %s. Contactez l'administrateur de ce site."
+
+#: functions.php:477
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande l'extension suivante : %1$s"
+msgstr[1] "Ce thème recommande les extensions suivantes : %1$s"
+
+#: functions.php:476
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème a besoin de l'extension suivante : %1$s"
+msgstr[1] "Ce thème a besoin des extensions suivantes : %1$s"
+
+#: functions.php:475 inc/class/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur a eu lieu avec l'API de l'extension"
+
+#. translators: %s: plugin name.
+#: functions.php:474 inc/class/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installation de l'extension : %s"
+
+#: functions.php:473 inc/class/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installation des extensions"
+
+#: functions.php:472 inc/class/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installation des extensions nécessaires"
+
+#: functions.php:182
+msgid "A contact widget with included social icons options"
+msgstr "Un widget de contact avec des options d’icônes sociaux inclus"
+
+#: functions.php:182
+msgid "LawyeriaX - Contact"
+msgstr "LawyeriaX - Contact"
+
+#: content-team-single.php:12
+msgid "View Profile"
+msgstr "Voir le profil"
+
+#: inc/customizer/customizer-lite-header.php:85
+msgid "Slider "
+msgstr "Diaporama"
+
+#: inc/customizer/customizer-lite-header.php:80
+msgid "Nivo Slider Lite Plugin"
+msgstr "Extension Nivo Slider Lite"
+
+#: inc/customizer/customizer-lite-header.php:79
+msgid "We recommend you install %1$s to get one of the most advanced slider plugin."
+msgstr "Nous vous recommandons d’installer %1$s pour obtenir l’une des extensions de diaporamas la plus avancée."
+
+#: inc/customizer/customizer-theme-info.php:17
+msgid "Theme info"
+msgstr "info du thème"
+
+#: inc/customizer/customizer-lite-header.php:16
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/class/customizer-info/class-singleton-customizer-info-section.php:80
+msgid "Get it"
+msgstr "Obtenez le"
+
+#: inc/class/customizer-info/class-singleton-customizer-info-section.php:78
+msgid "View PRO version"
+msgstr "Voir la version Pro"
+
+#: inc/customizer/customizer-theme-info.php:38
+msgid "Leave a review"
+msgstr "Laissez un avis"
+
+#: inc/customizer/customizer-theme-info.php:34
+msgid "Free VS Pro"
+msgstr "Gratuit Vs Pro"
+
+#: inc/customizer/customizer-theme-info.php:30
+msgid "View Demo"
+msgstr "Voir la démo"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr "Barre de gauche"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Page d'accueil"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single.php:44 template-parts/content.php:51
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: single-teammate.php:72 template-parts/content-page.php:22
+#: template-parts/content-single.php:48 template-parts/content.php:57
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nous ne trouvons pas ce que vous cherchez. La recherche pourrait vous être utile."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à votre recherche. Veuillez essayer une recherche différente."
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre 1er article ? <a href=\"%1$s\">Lancez vous ici</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Rien de trouvé"
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:69 single-teammate.php:117
+#: template-parts/content-page.php:33
+msgid "Edit %s"
+msgstr "Modification de %s"
+
+#: inc/template-tags.php:62
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: inc/template-tags.php:62
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: inc/template-tags.php:62
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/sections/frontpage-features.php:61
+#: inc/sections/frontpage-features.php:69
+#: template-parts/content-home-single.php:37 template-parts/content.php:61
+msgid "Read more..."
+msgstr "Lire la suite..."
+
+#: inc/sections/frontpage-slider.php:102
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/sections/frontpage-slider.php:98
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/customizer/customizer-news-controls.php:34
+msgid "Section Heading"
+msgstr "Section de titre"
+
+#: inc/customizer/customizer-news-controls.php:17
+msgid "Latest News Content"
+msgstr "Contenu des nouveautés"
+
+#: inc/customizer/customizer-news-controls.php:16
+#: inc/customizer/customizer-news-controls.php:28
+#: inc/sections/frontpage-news.php:15
+msgid "Latest News"
+msgstr "Nouveautés"
+
+#: inc/customizer/customizer-about-controls.php:51
+msgid "Heading"
+msgstr "Titre"
+
+#: inc/customizer/customizer-about-controls.php:17
+msgid "About us section settings"
+msgstr "Réglages de section à propos de nous"
+
+#: inc/customizer/customizer-about-controls.php:16
+msgid "About us Section"
+msgstr "Section à propos de nous"
+
+#: inc/customizer/customizer-features-controls.php:65
+msgid "Fourth Panel"
+msgstr "4ème panneau"
+
+#: inc/customizer/customizer-features-controls.php:53
+msgid "Third Panel"
+msgstr "3ème panneau"
+
+#: inc/customizer/customizer-features-controls.php:41
+msgid "Second Panel"
+msgstr "2nd panneau"
+
+#: inc/customizer/customizer-features-controls.php:29
+msgid "First Panel"
+msgstr "1er panneau"
+
+#: inc/customizer/customizer-features-controls.php:17
+msgid "Features Area"
+msgstr "Zone des fonctions"
+
+#: inc/customizer/customizer-ribbon-controls.php:28
+#: inc/sections/frontpage-ribbon.php:16
+msgid "The safety of the people shall be the highest law."
+msgstr "La sécurité des personnes est la loi la plus forte."
+
+#: inc/customizer/customizer-ribbon-controls.php:16
+msgid "Ribbon Section"
+msgstr "Section de ruban"
+
+#: inc/customizer/customizer-lite-header.php:63
+msgid "Button URL"
+msgstr "URL du bouton"
+
+#: inc/customizer/customizer-lite-header.php:51
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: inc/customizer/customizer-top-bar.php:87
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: inc/customizer/customizer-top-bar.php:71
+msgid "Phone Number"
+msgstr "N° de téléphone"
+
+#: inc/customizer/customizer-top-bar.php:53
+msgid "Edit, add or remove social links from the top bar"
+msgstr "Modifiez, ajoutez ou supprimez des liens sociaux de la barre du haut"
+
+#: inc/customizer/customizer-top-bar.php:52
+msgid "Social Links"
+msgstr "Liens sociaux"
+
+#: inc/customizer/customizer-top-bar.php:36
+msgid "Disable top bar"
+msgstr "Désactiver la barre du haut"
+
+#: inc/customizer/customizer-top-bar.php:18
+msgid "Top Bar Content"
+msgstr "Contenu de barre du haut"
+
+#: inc/customizer/customizer-top-bar.php:17
+msgid "Top Bar"
+msgstr "Barre du haut"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:422
+msgid "None"
+msgstr "Rien"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:417
+msgid "Image type"
+msgstr "Type d’image"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:404
+msgid "Upload Image"
+msgstr "Envoi d’image"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:401
+#: inc/class/customizer-repeater/repeater-general-control.php:421
+msgid "Image"
+msgstr "Image"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:381
+#: inc/class/customizer-repeater/repeater-general-control.php:420
+msgid "Icon"
+msgstr "Icône"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:286
+#: inc/class/customizer-repeater/repeater-general-control.php:344
+msgid "Delete field"
+msgstr "Supprimer le champ"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:274
+#: inc/class/customizer-repeater/repeater-general-control.php:338
+msgid "Link"
+msgstr "Lien"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:261
+#: inc/class/customizer-repeater/repeater-general-control.php:325
+#: inc/customizer/customizer-lite-header.php:39
+msgid "Text"
+msgstr "Texte"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:255
+#: inc/class/customizer-repeater/repeater-general-control.php:319
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:248
+#: inc/class/customizer-repeater/repeater-general-control.php:313
+#: inc/customizer/customizer-lite-header.php:26
+msgid "Title"
+msgstr "Titre"
+
+#: inc/class/customizer-repeater/repeater-general-control.php:190
+msgid "Add new field"
+msgstr "Ajout de nouveau champ"
+
+#: header.php:173
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: header.php:133
+msgid "Edit email in customizer."
+msgstr "Modifier l’e-mail dans la personnalisation"
+
+#: header.php:106
+msgid "Edit phone in customizer."
+msgstr "Modifier le téléphone dans la personnalisation"
+
+#: header.php:77
+msgid "Edit social icons in customizer."
+msgstr "Modifier les icônes sociaux dans la personnalisation"
+
+#: header.php:73
+msgid "Edit social icons in <a class=\"link-to-customizer\" href=\"%s\">customizer</a>."
+msgstr "Modifier les icônes sociaux dans la <a class=\"link-to-customizer\" href=\"%s\">personnalisation</a>."
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: functions.php:376
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. supported by Lora, translate this to 'off'. Do not translate 	into your own
+#. language.
+#: functions.php:375
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:160
+msgid "Team Widgets"
+msgstr "Widgets d’équipe"
+
+#: functions.php:153
+msgid "Footer right widget"
+msgstr "Widgets de droite de pied"
+
+#: functions.php:146
+msgid "Footer center widget"
+msgstr "Widget de centre de pied"
+
+#: functions.php:139
+msgid "Footer left widget"
+msgstr "Widgets de gauche de pied"
+
+#: functions.php:129
+msgid "Sidebar"
+msgstr "Barre"
+
+#: functions.php:57
+msgid "Primary"
+msgstr "Principal"
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:58 comments.php:81
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:56 comments.php:79
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:52 comments.php:75
+msgid "Comment navigation"
+msgstr "Navigation de commentaire"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s commentaire sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commentaires sur &ldquo;%2$s&rdquo;"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Il semble que rien ne soit trouvé à cet emplacement. Essayez les liens ci-dessous ou une recherche ?"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups ! Cette page est introuvable."
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Theme URI of the plugin/theme
+msgid "http://themeisle.com/themes/lawyeriax"
+msgstr "http://themeisle.com/themes/lawyeriax"
