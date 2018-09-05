@@ -32,16 +32,25 @@ echo 'col-md-8';
 				get_template_part( 'content', 'job' );
 				 echo ' <font face="arial" size="4" color="black">Description d\'entreprise </font>';
             echo get_post_meta(get_the_ID(),'wpcf-description-d-entreprise',true); echo "<br>";
+
                   echo ' <font face="arial" size="4" color="black">Description du poste </font>';
             echo get_post_meta(get_the_ID(),'wpcf-description-du-poste',true); echo "<br>";
+
+              echo ' <font face="arial" size="4" color="black">Ville :</font>';
+                echo get_post_meta(get_the_ID(),'wpcf-ville',true); echo "<br>";
+
               echo ' <font face="arial" size="4" color="black">Les langues nécessaires </font>';
                   echo get_post_meta(get_the_ID(),'wpcf-langues',true); echo "<br>";
+
             echo ' <font face="arial" size="4" color="black">Niveau d\'experience </font>';
                  echo get_post_meta(get_the_ID(),'wpcf-niveau-d-experience',true); echo "<br>";
+
             echo ' <font face="arial" size="4" color="black">Type de diplôme </font>';
                 echo get_post_meta(get_the_ID(),'wpcf-type-de-diplome',true); echo "<br>";
+
             echo ' <font face="arial" size="4" color="black">Poste </font>';
                 echo get_post_meta(get_the_ID(),'wpcf-poste',true); echo "<br>";
+
             echo ' <font face="arial" size="4" color="black">Le dernier delai</font>';
                 echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true); echo "<br>";
             echo ' <font face="arial" size="4" color="black">Nombres de poste proposés </font>';
