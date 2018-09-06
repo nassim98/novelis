@@ -52,11 +52,17 @@
 				echo ' <font face="arial" size="4" color="black">Poste :</font>';
                 echo get_post_meta(get_the_ID(),'wpcf-poste',true); echo "<br>";
 
-				 echo ' <font face="arial" size="4" color="black">Dernier délai :</font>';
-                echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true); echo "<br>";
+
+				 echo ' <font face="arial" size="4" color="black">Secteur d\'activité :</font>';
+                echo get_post_meta(get_the_ID(),'wpcf-secteur-dactivite',true); echo "<br>";
 
                 echo ' <font face="arial" size="4" color="black">Nombres de poste proposés :</font>';
                  echo get_post_meta(get_the_ID(),'wpcf-nbr-postes',true); echo "<br>";
+                 echo ' <font face="arial" size="4" color="black">Type de diplômes :</font>';
+                 echo get_post_meta(get_the_ID(),'wpcf-type-de-diplome',true); echo "<br>";
+
+               echo '<a href="';echo the_permalink();echo '">En savoir plus</a>';
+
 			$ismore = strpos( $post->post_content, '<!--more-->' );
 			if ( $ismore ) {
 			the_content( /* translators: %s is the post link */
@@ -77,7 +83,9 @@
 				<span itemscope itemprop="author" itemtype="http://schema.org/Person" class="entry-author post-author">
 					<span  itemprop="name" class="entry-author author vcard">
 						
-						<i class="fa-map-marker" aria-hidden="true"></i>
+						<i class="fa fa-map-marker colored-text"></i>
+
+
 						<!--<i class="fa fa-user" aria-hidden="true"></i>-->
 						<?php   echo get_post_meta(get_the_ID(),'wpcf-ville',true); ?>
 
@@ -86,7 +94,7 @@
 					</span>
 				</span>
 				<?php llorix_one_lite_after_author_in_entry_meta_trigger(); ?>
-				<span class="posted-in entry-terms-categories" itemprop="articleSection">
+			<!--	<span class="posted-in entry-terms-categories" itemprop="articleSection">
 					<i class="fa fa-folder" aria-hidden="true"></i>
 					<?php _e( 'Posted in', 'llorix-one-lite' ); ?>
 					<?php
@@ -99,7 +107,7 @@
 						echo $categories_list;
 						}
 					?>
-				</span>
+				</span>-->
 				<?php llorix_one_lite_after_categories_in_entry_meta_trigger(); ?>
 				<?php echo '<span style="color:red"; class="post-comments">Dernier délai ';echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true);echo'</span>' ;?>
 				<!--<a href="<?php comments_link(); ?>" class="post-comments">

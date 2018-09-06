@@ -60,7 +60,8 @@ get_header(); ?>
 			if ( have_posts() ) {
 
 				echo '<header class="page-header">';
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					//the_archive_title( '<h1 class="page-title">', '</h1>' );
+				echo '<h1 class="page-title"> Les offres d\'emploi et de stage</h1>';
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				echo '</header>';
 				while ( have_posts() ) {
