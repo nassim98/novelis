@@ -80,7 +80,7 @@ echo 'col-md-8';
             echo ' <h2 style="color: #f16c20; font-size:20px;">Type de contrat :</h2>';
                   echo get_post_meta(get_the_ID(),'wpcf-types-de-contrat',true); echo "<br><br>";
 						
-			echo '<a href="http://localhost/novelis/contact/?preview=true" >  
+			echo '<a href="http://localhost/novelis/postuler/" >  
 				<button>Postuler</button>
 					</a>';
 
