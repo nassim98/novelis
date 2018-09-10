@@ -37,7 +37,8 @@ echo 'col-md-8';
 
 				echo '<h2 style="color: #f16c20; font-size:20px;margin-top: 10px;
     margin-bottom: 0px;">Description d\'entreprise :</h2>';
-				echo get_post_meta(get_the_ID(),'wpcf-description-d-entreprise',true); 
+			//	echo get_post_meta(get_the_ID(),'wpcf-description-d-entreprise',true); 
+				echo "<p style='width:600px;'>".get_post_meta(get_the_ID(),'wpcf-description-d-entreprise',true);echo"</p>";
 
 				 /*echo ' <font face="arial" size="4" color="black">Description d\'entreprise </font>';
             echo get_post_meta(get_the_ID(),'wpcf-description-d-entreprise',true); echo "<br>";*/
