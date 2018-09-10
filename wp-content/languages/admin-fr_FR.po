@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-09-03 18:56:41+0000\n"
+"PO-Revision-Date: 2018-09-07 19:43:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3678,7 +3678,7 @@ msgstr "Autrement, vous pouvez parcourir les thèmes mis en avant, populaires, o
 
 #: wp-admin/themes.php:78
 msgid "The search for installed themes will search for terms in their name, description, author, or tag."
-msgstr "La recherche parmi les thèmes installés se fait sur leurs noms, leurs descriptions, leurs auteurs et leurs étiquettes."
+msgstr "La recherche parmi les thèmes installés se fait sur leur nom, leur description, leur auteur et leurs étiquettes."
 
 #: wp-admin/options-general.php:314
 msgid "enter a custom date format in the following field"
@@ -4540,7 +4540,7 @@ msgstr "Le thème en cours de prévisualisation est totalement interactif &mdash
 
 #: wp-admin/themes.php:105
 msgid "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way."
-msgstr "Touchez ou survolez n’importe quel thème puis cliquez sur le bouton Prévisualisation pour voir une prévisualisation de ce thème et changer les options du thème dans un vie séparée et plein écran. Vous pouvez également trouver un bouton Prévisualisation au bas de l’écran de détails du thème. Tout thème installé peut être prévisualisé et personnalisé de cette manière."
+msgstr "Touchez ou survolez n’importe quel thème puis cliquez sur le bouton « Prévisualisation » pour avoir un aperçu de celui-ci et ses changer les options dans une vue séparée et plein écran. Vous pouvez également trouver un bouton « Prévisualisation » en bas de l’écran de détails du thème. Tout thème installé peut être prévisualisé et personnalisé de cette manière."
 
 #: wp-admin/themes.php:77
 msgid "The current theme is displayed highlighted as the first theme."
@@ -5522,7 +5522,7 @@ msgstr "Plusieurs sections de cet écran vous permettez de régler la manière d
 
 #: wp-admin/edit-form-advanced.php:435
 msgid "Inserting Media"
-msgstr "Insertion du média"
+msgstr "Insertion de média"
 
 #: wp-admin/edit-form-advanced.php:367
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
