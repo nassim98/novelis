@@ -49,19 +49,19 @@
 	<div itemprop="description" class="entry-content entry-summary">
 		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
 		<?php
-				echo ' <font face="arial" size="4" color="black">Poste :</font>';
+				echo ' <font face="arial" size="4" color="black">  Poste :</font>';
                 echo get_post_meta(get_the_ID(),'wpcf-poste',true); echo "<br>";
 
 
-				 echo ' <font face="arial" size="4" color="black">Secteur d\'activité :</font>';
+				 echo ' <font face="arial" size="4" color="black">  Secteur d\'activité :</font>';
                 echo get_post_meta(get_the_ID(),'wpcf-secteur-dactivite',true); echo "<br>";
 
-                echo ' <font face="arial" size="4" color="black">Nombres de poste proposés :</font>';
+                echo ' <font face="arial" size="4" color="black">  Nombres de poste proposés :</font>';
                  echo get_post_meta(get_the_ID(),'wpcf-nbr-postes',true); echo "<br>";
-                 echo ' <font face="arial" size="4" color="black">Type de diplômes :</font>';
+                 echo ' <font face="arial" size="4" color="black"> Type de diplômes :</font>';
                  echo get_post_meta(get_the_ID(),'wpcf-type-de-diplome',true); echo "<br>";
 
-               echo '<a href="';echo the_permalink();echo '">En savoir plus</a>';
+               echo '<a href="';echo the_permalink();echo '">  En savoir plus</a>';
 
 			$ismore = strpos( $post->post_content, '<!--more-->' );
 			if ( $ismore ) {
@@ -109,7 +109,7 @@
 					?>
 				</span>-->
 				<?php llorix_one_lite_after_categories_in_entry_meta_trigger(); ?>
-				<?php echo '<span style="color:red"; class="post-comments">Dernier délai ';echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true);echo'</span>' ;?>
+				<?php echo '<span style="color:red"; class="post-comments">Date limite ';echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true);echo'</span>' ;?>
 				<!--<a href="<?php comments_link(); ?>" class="post-comments">
 					<i class="fa fa-comment" aria-hidden="true"></i>
 					<?php comments_number( esc_html__( 'No comments', 'llorix-one-lite' ), esc_html__( 'One comment', 'llorix-one-lite' ), esc_html__( '% comments', 'llorix-one-lite' ) ); ?>

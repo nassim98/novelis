@@ -83,7 +83,7 @@ echo 'col-md-8';
 
             
 
-            echo '<h2 style="color: #f16c20; font-size:20px;">Le dernier delai :</h2>';
+            echo '<h2 style="color: #f16c20; font-size:20px;">Date limite :</h2>';
                 echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true); echo "<br>";
             
             echo ' <h2 style="color: #f16c20; font-size:20px;">Type de contrat :</h2>';
