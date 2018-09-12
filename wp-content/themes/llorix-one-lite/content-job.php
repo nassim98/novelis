@@ -109,7 +109,7 @@
 					?>
 				</span>-->
 				<?php llorix_one_lite_after_categories_in_entry_meta_trigger(); ?>
-				<?php echo '<span style="color:red"; class="post-comments">Date limite ';echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true);echo'</span>' ;?>
+				<?php echo '<span style="color:red"; class="post-comments">Dernier délai ';echo get_post_meta(get_the_ID(),'wpcf-le-dernier-delai',true);echo'</span>' ;?>
 				<!--<a href="<?php comments_link(); ?>" class="post-comments">
 					<i class="fa fa-comment" aria-hidden="true"></i>
 					<?php comments_number( esc_html__( 'No comments', 'llorix-one-lite' ), esc_html__( 'One comment', 'llorix-one-lite' ), esc_html__( '% comments', 'llorix-one-lite' ) ); ?>
