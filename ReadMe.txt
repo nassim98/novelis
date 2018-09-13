@@ -1,43 +1,43 @@
 Novelis wordpress webSite ReadMe
-Site créé avec WordPress
+Site créer avec WordPress
 Dossier du projet: novelis
 
 ======================
 
 -----------------------------------------------------------------------------
-					Description du site web
+								Description du site web
 -----------------------------------------------------------------------------
 
 
 Le site web contient 9 pages principaux
 * Page d'accueil
-* Qui sommes nous
+* Qui somme nous
 * Nos valeurs
 * Nos offres
 * Carrières
 * Postuler
 * LAB R&D
 * Blog
-* Contact
+*Contact
 
 **Note:
 Postuler ,Blog et Contact sont des nouvelles pages pour le site Novelis
 
-		Postuler : Présente les offres de travaux ouverts par novelis.
-		Blog     : est une page qui contient les articles concernant les nouveautés technologique ou article explicatif d'un projet réalisé, publié par l'admin ou les auteurs de site dans le champs de publication "jobs'.
+		Postuler : Présente les offres de travail ouverts par novelis.
+		Blog     : est une page qui contient les articles concernant les nouveautés technologique ou article explicatif d'un projet réalisé ,publié par l'admin ou les auteurs de site dans le champs de publication "jobs'.
 
 		Contact  :Formulaire avec lequel les utilisateurs peuvent contacter la société.
 
 
 
 -------------------------------------------------------------------------------
-								Installation
+											Installation
 -------------------------------------------------------------------------------
 
 ##Implémentation de base de données mySql
 
- * Créer une base de données (sous le nom de novelis par exemple).
- * Exécuter le script "novelis.sql" qui contient les tables de la base de données de notre site wordpress.
+ * Créer une base de donnée(sous le nom de novelis par exemple).
+ * Executer le script "novelis.sql" qui contient les tables de la base de données de notre site wordpress.
 
 ## Modification du fichier de configuration wp-config.php
 
@@ -74,7 +74,7 @@ Lancez le site web et authentifiez-vous avec les données suivant(vous pouvez ch
 
 
   ------------------------------------------------------------------------------------
-  						Modification nécessaire à faire!!!
+  								Modification nécessaire à faire!!!
   ------------------------------------------------------------------------------------
 
   ##Settings
@@ -88,7 +88,7 @@ Lancez le site web et authentifiez-vous avec les données suivant(vous pouvez ch
  Changer SMTP Username à l'adresse e-mail que vous avez saisi en haut
  Changer SMTP Password au mot de passe votre e-mail
 
- !PS:  Ne pas confondre l'email utilisé avec l'adresse e-mail où vous voulez recevoir les mails des candidatures d'emploi où les emails de contact.
+ !PS:  Ne pas confondre l'email utilisé avec l'adress e-mail où vous voulez recevoir les mails des condidatures d'emploi où les emails de contact.
 
  2)Changer les adresses e-mail des formulaires de postulation et de contact
 
@@ -97,7 +97,7 @@ Lancez le site web et authentifiez-vous avec les données suivant(vous pouvez ch
  		Cliquez sur l'onglet Email
  		  Dans " Pour" Changez l'adresse e-mail par info@novelis-consulting.com,c'est l'adresse où vous recevrez les messages des utilisateurs envoyer à partir de formulaire de contact.
 
- 		  Maintenant faites la même chose pour le formulaire de postulation mais cette fois-ci changer l'adresse e-mail dans "Pour" par job@novelis-consulting.com; l'adresse e-mail où vous recevrez  les mails des candidatures d'emploi.
+ 		  Maintenant faites la même chose pour le formulaire de postulation mais cette fois-ci changer l'adresse e-mail dans "Pour" par job@novelis-consulting.com; l'adresse e-mail où vous recevrez  les mails des condidatures d'emploi.
 
 
  3)Settings de l'extension Weglot
@@ -109,7 +109,7 @@ L'extension Weglot est un des meilleurs extensions qui rend un site web multilin
 		Changez la Clé API par votre clé API pour cela il faut visitez le site weglot.com et créer votre compte weglot.Copiez votre Clé API et changer le dans l'extension.
 
 4)Editer le fichier single-job.php
-Changer le lien de boutton postuler de la page single-job.php par son lien de la page Postuler aprés l'hébergement du site.
+Changer le lien de boutton postuler de la page single-job.php par son le lien de la page Postuler aprés l'hébergement de site.
 Allez à novelis/wp-content/themes/llorix-one-lite ,cherchez fichier single-job.php
 Allez à la ligne 92 et changer l'attribut href du boutton.
 
@@ -121,7 +121,7 @@ Allez à la ligne 92 et changer l'attribut href du boutton.
  6)Ajouter du contenu dans la section "Happy Customers" et le contenu à la fin de la page Carrières.
 
 --------------------------------------------------------------------------------------
-							La contribution
+									La contribution
 --------------------------------------------------------------------------------------
 ##L'ajout des articles dans Blog
 
@@ -129,8 +129,8 @@ Allez à la ligne 92 et changer l'attribut href du boutton.
   #Saisissez le titre d'article
   #Le contenu d'article ,vous pouvez aussi ajouter un média qui sera afficher dans l'article.
   #N'oubliez pas de définir l'image mise en avant.(c'est l'image qui sera afficher dans l'archibe des blogs/la page des Blogs)
-  #Choisissez la catégorie informatique ou vous pouvez vous même créer une nouvelle catégorie.
-  #Cliquez sur publier. Maintenant l'article est publié dans la page des blogs.
+  #Choisissez la catégorie inforlatique ou vous pouvez vous même créer une nouvelle catégorie.
+  #Cliquez sur publier.Maintenant l'article est publié dans la page des blogs.
 
  ##L'ajout des offres d'emploi
   #Allez à jobs->Ajouter un(e)nouveau(elle)
@@ -144,15 +144,18 @@ Allez à la ligne 92 et changer l'attribut href du boutton.
    #Personalisez et Modifier votre page avec  Elementor
 
    ----------------------------------------------------------------------------------------------------
-   								Le développement
+   										Le développement
    ----------------------------------------------------------------------------------------------------
 
 ##La page Postuler/jobs page
  #Si vous vouez modifier les informations qui sont affichés pour un offre de job dans la Page postuler
  il faut modifier le fichier content-job.php, novelis/wp-content/themes/llorix-one-lite/content-job.php.
- #Le fichier .php qui s'occupe d'appeler le template content-job.php et archive-job.php qui se trouve dans le même répertoire.
+ #Le fichier .php qui s'occupe d'appler le template content-job.php et archive-job.php qui se trouve dans le même repertoire.
 
 ##Affichage d'un offre d'emploi/single job
-Le fichier single-job.php est le responsable sur l'affichage des informations d'offre d'emploi.
-Vous trouverez ce fichier dans le répertoire suivant : novelis/wp-content/themes/llorix-one-lite/
+Le fichier single-job.php est le responsable sur l'affichage des informatons d'offre d'emploi.
+Vous trouverez ce fichier dans le repertoire suivant : novelis/wp-content/themes/llorix-one-lite/
+
+
+
 
